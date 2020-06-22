@@ -1,0 +1,16 @@
+.ImgContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#myImg {
+border-radius: 50%;
+position: absolute;
+top: 40%;
+left: 5%;
+}
+#backgroundImg{
+  position: relative;
+  top: 0;
+  left: 0;
+}
