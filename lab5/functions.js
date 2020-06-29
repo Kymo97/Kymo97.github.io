@@ -36,6 +36,13 @@ function filterLongWords(i,...words) {
     str=words.filter(word=>word.length>i);
     return str;
 }
+function findShortestWord(...words) {
+    return words.reduce((shortestWord,currentword)=>
+    {
+        return currentword.length < shortestWord.length ? currentword : shortestWord;
+    })
+}
+
 //slides map/filter/reduce
 
 const mapExample = (...arr)=>{ return arr.map(elem=>elem*10)};
@@ -103,3 +110,4 @@ console.log("Expected output of filterExample([5,3,8,5,3,22]) is [3,3] "+myFunct
 console.log("\n");
 console.log("Expected output of filterExample([1,5,4,6]) is 120 "+myFunctionTest(120, ()=>reduceExample(1,5,4,6)));
 console.log("Expected output of reduceExample([1,5,4,6]) is 120 "+myFunctionTest(60, ()=>reduceExample(1,5,4,6)));
+
