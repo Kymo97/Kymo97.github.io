@@ -1,4 +1,4 @@
-"use strict";
+
 window.onload = ()=>{
 
     let intervaltime=250
@@ -65,3 +65,6 @@ window.onload = ()=>{
         }
     }
 }
+
+
+
