@@ -1,3 +1,4 @@
+"use strict"
 describe("Sum",()=>{
 
     it("Sum of 4 and 11 is 15",()=>{

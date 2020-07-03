@@ -111,3 +111,12 @@ console.log("\n");
 console.log("Expected output of filterExample([1,5,4,6]) is 120 "+myFunctionTest(120, ()=>reduceExample(1,5,4,6)));
 console.log("Expected output of reduceExample([1,5,4,6]) is 120 "+myFunctionTest(60, ()=>reduceExample(1,5,4,6)));
 
+function longestNoSpace(...str){
+    return str.filter(word=>word.indexOf(" ")===-1)
+            .map(word=>word.length)
+            .reduce((word,currentword)=>{
+                return currentword > word ? currentword : word;
+            },0);
+}
+console.log(longestNoSpace("hello","world!"));
+

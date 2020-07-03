@@ -1,3 +1,4 @@
+"use strict"
 function sum(...arr) {
     return arr.reduce((accumulator,item)=> {return accumulator+item});
 }
