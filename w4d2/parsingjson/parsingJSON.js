@@ -2,9 +2,9 @@ window.onload = () => {
     $("input[type=submit]").click(loadUserData);
 };
 
-let urlInfo = "http://jsonplaceholder.typicode.com/users/";
-let urlPosts = "http://jsonplaceholder.typicode.com/posts";
-let urlComments = "http://jsonplaceholder.typicode.com/comments";
+let urlInfo = "https://jsonplaceholder.typicode.com/users/";
+let urlPosts = "https://jsonplaceholder.typicode.com/posts";
+let urlComments = "https://jsonplaceholder.typicode.com/comments";
 
 function loadUserData(event) {
     console.log($("#userId").val());

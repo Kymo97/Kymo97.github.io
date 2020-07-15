@@ -2,7 +2,7 @@ $(()=>{
     $("#load").click(getBoot);
     creatingLoadingScreen();
 });
-let url ="http://mumstudents.org/cs472/2016-03-AS-KL/Sections/8/bootloader/loader.php?delay=1";
+let url ="https://mumstudents.org/cs472/2016-03-AS-KL/Sections/8/bootloader/loader.php?delay=1";
 function creatingLoadingScreen(){
     let loadingScreen = $("<img>",{src:'loading.gif',class:"loadingScreen"}).hide();
     let loadingText = $('<div>',{'text':"loading...",class:"loadingScreen"}).hide();

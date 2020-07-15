@@ -2,7 +2,7 @@ window.onload=()=>{
     $("#puppies").click(updatePic);
     $("#kitties").click(updatePic);
 };
-let url ="http://mumstudents.org/cs472/2013-09/Sections/8/ajaxpets/ajaxpets.php";
+let url ="https://mumstudents.org/cs472/2013-09/Sections/8/ajaxpets/ajaxpets.php";
 
 function updatePic(e){
     //ajax solution
